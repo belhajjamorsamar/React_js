@@ -1,10 +1,16 @@
-
+import React,{ Component } from 'react';
+import Todos from './components/Todos';
 import './App.css';
 
-function App() {
-  return (
-    <h1>hello world</h1>
-  );
+
+class App extends Component {
+    render(){
+        return (
+            <Todos />
+          );
+
+    }
+  
 }
 
 export default App;
