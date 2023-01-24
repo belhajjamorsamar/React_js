@@ -2,11 +2,11 @@ import React from 'react';
 function Social(){
 
     return(
-        <ul>
-        <li>Facebook</li>
-        <li>Youtube</li>
-        <li>Instagram</li>
+        <ul className='list-group'>
+        <li className='list-group-item'>Facebook</li>
+        <li className='list-group-item'>Youtube</li>
+        <li className='list-group-item'>Instagram</li>
        </ul>
     );
 }
-export default Social;
+export default Social

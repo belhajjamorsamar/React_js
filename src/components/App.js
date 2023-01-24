@@ -10,11 +10,7 @@ function App(){
 
 <Header/>
 <Text/>
-<Social/>
-
-      
-      
-       
+<Social/> 
       </div>
     );
   }
