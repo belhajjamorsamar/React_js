@@ -6,11 +6,11 @@ import Text  from './Text';
 
 function App(){
     return(
-      <div>
+      <div className='container'>
 
-<Header/>
-<Text/>
-<Social/> 
+       <Header/>
+       <Text/>
+       <Social/> 
       </div>
     );
   }
