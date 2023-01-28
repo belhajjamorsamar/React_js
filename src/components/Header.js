@@ -1,35 +1,39 @@
 import React from 'react';
 function Header(){
-  let title ="";
-  const client="Designer";
-/*
+  const client ="designer"
+  const title ={
+    designer:"design",
+    programmer:"programming"
+
+  }
+
+  const info={
+    name:"samar",
+    lastname:"belhajjamor"
+  }
+  return(
+    <div className='navbar bg-dark rounded text-white'>
+    Hello {`${info.name}   ${info.lastname}`}
+         <h2 className="text-white">
+          {client == "designer" ? title.designer : title.programmer}
+          </h2>
+      </div>
+    );
+}
+export default Header;
+
+
+  /*let title = ""; //if classique
+  const client= "Designer";
+
   if(client=== "Designer"){
     title="Design is my Life"
   }
     else{
       title="Programming is my Life"
 
-}*/ 
+}*/
 
 
-   const Client="Designer";
-   const Title = {
-    designer :"Design",
-    programmer:"Programming"
-   }
-   const info = {
-    name:"Samar",
-    nick:"Belhajj amor"
-   }
-
-  
-  return(
-    <div className='navbar bg-dark rounded text-white'>
-         Hello {`${info.name} ${info.nick}`}
-         <h2 > {Client == "Designer" ? Title.designer:Title.programmer } is my Life.
-         </h2>
-
-      </div>
-    );
-}
-export default Header;
+// Hello {info.name+ " " +info.lastname}  :: affichage normale ,concatination avec "+"
+//Hello {`${info.name}  sdzfv  ${info.lastname}`} :: utiliser le backtec'`' pour l'afficher sans utliser le + pour la concatination on peut ajouter quelque entre les deux variables 
