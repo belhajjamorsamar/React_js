@@ -6,5 +6,4 @@ function Team (){
   <TeamMember/>
    )
 }
-
 export default Team;

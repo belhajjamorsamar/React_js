@@ -7,10 +7,8 @@ import Text  from './Text';
 function App(){
     return(
       <div className='container'>
-
-       <Header/>
-       <Text/>
-       <Social/> 
+        <h2>Hello i'm Heare</h2>
+     <button></button>
       </div>
     );
   }
