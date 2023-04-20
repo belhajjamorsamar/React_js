@@ -1,7 +1,7 @@
 
-import React from 'react';
+import React ,{Component} from 'react';
 
-function personne(props){
+/*const personne = props => {
 
     return (
         <>
@@ -12,5 +12,25 @@ function personne(props){
         </>
     );
 
+}*/
+
+class Personne extends React.Component{
+    /*constructor(props){
+        super(props);        // Ancien methode pour utiliser props
+    } */
+
+
+render(){
+    return(
+        <>
+        <h3>{this.props.nom}</h3>
+        <div>Age :{this.props.age}</div>
+        <div>Sexe :{this.props.sexe}</div>
+
+        </>
+
+    );
 }
-export default personne;
+}
+
+export default Personne;

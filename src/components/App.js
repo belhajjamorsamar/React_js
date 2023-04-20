@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './Header'
 import Team from './Team'
 import Moncomposant from './Moncomposant';
-import Personne from './Persone'
+import  Personne from './Persone'
 
 function MonCompsant(){
 return (
