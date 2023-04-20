@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from './Header'
 import Team from './Team'
-import Moncomposant from './Moncomposant'
+import Moncomposant from './Moncomposant';
+import Personne from './Persone'
 
 function MonCompsant(){
 return (
@@ -11,6 +12,8 @@ return (
 <Moncomposant/>
   </div>
 );
+
+
 
 }
 
@@ -22,7 +25,9 @@ function App(){
     <div className='container'>
       <h2>Hello i'm Heare</h2>
    <button onClick={apple}>click md</button>
-   <MonCompsant/>
+  <Personne nom="samar"   age="21"   sexe="femme"/>
+  <Personne nom="oumayama" age="21"   sexe="femme"/>
+  <Personne nom="thara"    age="23"  sexe="femme" />
     </div>
   );}
 export default App;
