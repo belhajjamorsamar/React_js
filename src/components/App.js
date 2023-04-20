@@ -1,13 +1,14 @@
 import React from 'react'
 import Header from './Header'
 import Team from './Team'
-
+import Moncomposant from './Moncomposant'
 
 function MonCompsant(){
 return (
   <div>
-<h1> mon nom est BELHAJJAMOR </h1>
-<h2>mon prénom est Samar</h2>
+<h1> Coucou </h1>
+<p>mon prénom est Samar ,mon nom est BELHAJJAMOR</p>
+<Moncomposant/>
   </div>
 );
 
