@@ -3,6 +3,10 @@ import Header from './Header'
 import Team from './Team'
 import Moncomposant from './Moncomposant';
 import  Personne from './Persone'
+import Componenet from './LearnComponents/Componenet';
+
+
+
 
 function MonCompsant(){
 return (
@@ -17,7 +21,7 @@ return (
 
 }
 
-function App(){
+/*function App(){
   function apple(){
     alert('Hello from apple')
   }
@@ -29,5 +33,15 @@ function App(){
   <Personne nom="oumayama" age="21"   sexe="femme"/>
   <Personne nom="thara"    age="23"  sexe="femme" />
     </div>
-  );}
+  );}*/
+
+   function App(){
+    return(
+      <div>
+      <Componenet/>
+      </div>
+
+    );
+
+   }
 export default App;
