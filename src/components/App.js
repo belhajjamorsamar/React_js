@@ -4,7 +4,7 @@ import Team from './Team'
 import Moncomposant from './Moncomposant';
 import  Personne from './Persone'
 import Componenet from './LearnComponents/Componenet';
-
+import Horloge from './LearnComponents/Horloge';
 
 
 
@@ -38,7 +38,7 @@ return (
    function App(){
     return(
       <div>
-      <Componenet/>
+      <Horloge/>
       </div>
 
     );
