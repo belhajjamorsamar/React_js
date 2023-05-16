@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 
 
@@ -32,7 +32,7 @@ import React from 'react';
 
  
 // 2: Class : []  : utiliser un tablaux pour  retourner plusieurs element
-class Componenet  extends React.Component{
+/*class Componenet  extends React.Component{
     render(){
 
         return(
@@ -40,6 +40,22 @@ class Componenet  extends React.Component{
                 <h1>Hi i'm a Class Componenet</h1>,
                 <h2> Enclosed by table</h2>
             ]
+        );
+    }
+
+
+ } */
+
+
+ // 2: Class : <Fragment></Fragment> : utiliser un tablaux pour  retourner plusieurs element
+class Componenet  extends React.Component{
+    render(){
+
+        return(
+            <Fragment>
+                <h1>Hi i'm a Class Componenet</h1>,
+                <h2> Enclosed by table</h2>
+            </Fragment>
         );
     }
 
